@@ -11,6 +11,7 @@
 		91DC21A22A459C3A00B40316 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DC21A12A459C3A00B40316 /* ContentView.swift */; };
 		91DC21A42A459C3B00B40316 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91DC21A32A459C3B00B40316 /* Assets.xcassets */; };
 		91DC21A72A459C3B00B40316 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91DC21A62A459C3B00B40316 /* Preview Assets.xcassets */; };
+		91DC21AE2A45B33E00B40316 /* ConfettiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DC21AD2A45B33E00B40316 /* ConfettiView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		91DC21A12A459C3A00B40316 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		91DC21A32A459C3B00B40316 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		91DC21A62A459C3B00B40316 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		91DC21AD2A45B33E00B40316 /* ConfettiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfettiView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				91DC219F2A459C3A00B40316 /* animation_connectApp.swift */,
 				91DC21A12A459C3A00B40316 /* ContentView.swift */,
+				91DC21AD2A45B33E00B40316 /* ConfettiView.swift */,
 				91DC21A32A459C3B00B40316 /* Assets.xcassets */,
 				91DC21A52A459C3B00B40316 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91DC21AE2A45B33E00B40316 /* ConfettiView.swift in Sources */,
 				91DC21A22A459C3A00B40316 /* ContentView.swift in Sources */,
 				91DC21A02A459C3A00B40316 /* animation_connectApp.swift in Sources */,
 			);
