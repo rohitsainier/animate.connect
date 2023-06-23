@@ -12,6 +12,7 @@
 		91DC21A42A459C3B00B40316 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91DC21A32A459C3B00B40316 /* Assets.xcassets */; };
 		91DC21A72A459C3B00B40316 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91DC21A62A459C3B00B40316 /* Preview Assets.xcassets */; };
 		91DC21AE2A45B33E00B40316 /* ConfettiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DC21AD2A45B33E00B40316 /* ConfettiView.swift */; };
+		91DC21B12A45FD2300B40316 /* ConfeetiAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DC21B02A45FD2300B40316 /* ConfeetiAnimation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		91DC21A32A459C3B00B40316 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		91DC21A62A459C3B00B40316 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		91DC21AD2A45B33E00B40316 /* ConfettiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfettiView.swift; sourceTree = "<group>"; };
+		91DC21B02A45FD2300B40316 /* ConfeetiAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfeetiAnimation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,9 +55,9 @@
 		91DC219E2A459C3A00B40316 /* animation.connect */ = {
 			isa = PBXGroup;
 			children = (
-				91DC219F2A459C3A00B40316 /* animation_connectApp.swift */,
+				91DC21B22A45FDBF00B40316 /* App */,
+				91DC21AF2A45FCE900B40316 /* Confetti */,
 				91DC21A12A459C3A00B40316 /* ContentView.swift */,
-				91DC21AD2A45B33E00B40316 /* ConfettiView.swift */,
 				91DC21A32A459C3B00B40316 /* Assets.xcassets */,
 				91DC21A52A459C3B00B40316 /* Preview Content */,
 			);
@@ -68,6 +70,23 @@
 				91DC21A62A459C3B00B40316 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		91DC21AF2A45FCE900B40316 /* Confetti */ = {
+			isa = PBXGroup;
+			children = (
+				91DC21AD2A45B33E00B40316 /* ConfettiView.swift */,
+				91DC21B02A45FD2300B40316 /* ConfeetiAnimation.swift */,
+			);
+			path = Confetti;
+			sourceTree = "<group>";
+		};
+		91DC21B22A45FDBF00B40316 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				91DC219F2A459C3A00B40316 /* animation_connectApp.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +162,7 @@
 				91DC21AE2A45B33E00B40316 /* ConfettiView.swift in Sources */,
 				91DC21A22A459C3A00B40316 /* ContentView.swift in Sources */,
 				91DC21A02A459C3A00B40316 /* animation_connectApp.swift in Sources */,
+				91DC21B12A45FD2300B40316 /* ConfeetiAnimation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
