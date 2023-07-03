@@ -10,7 +10,11 @@ import SwiftUI
 
 struct ContentView: View {
   var body: some View {
-    Text("ContentView")
+    VStack {
+      RingAnimationView()
+      RingAnimationView2()
+      RingAnimationView3()
+    }
   }
 }
 
@@ -20,3 +24,5 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+

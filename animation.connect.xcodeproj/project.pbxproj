@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		911C5F242A518FA200515D7F /* PackmanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911C5F232A518FA200515D7F /* PackmanView.swift */; };
+		91387A012A52D30200BA266F /* RingAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91387A002A52D30200BA266F /* RingAnimationView.swift */; };
 		914220592A5034F100B27C40 /* VoiceRecordingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914220582A5034F100B27C40 /* VoiceRecordingView.swift */; };
 		91DC21A02A459C3A00B40316 /* animation_connectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DC219F2A459C3A00B40316 /* animation_connectApp.swift */; };
 		91DC21A22A459C3A00B40316 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DC21A12A459C3A00B40316 /* ContentView.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		911C5F232A518FA200515D7F /* PackmanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackmanView.swift; sourceTree = "<group>"; };
+		91387A002A52D30200BA266F /* RingAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingAnimationView.swift; sourceTree = "<group>"; };
 		914220582A5034F100B27C40 /* VoiceRecordingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceRecordingView.swift; sourceTree = "<group>"; };
 		91DC219C2A459C3A00B40316 /* animation.connect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = animation.connect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91DC219F2A459C3A00B40316 /* animation_connectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = animation_connectApp.swift; sourceTree = "<group>"; };
@@ -38,6 +42,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		911C5F222A518F8D00515D7F /* Packman */ = {
+			isa = PBXGroup;
+			children = (
+				911C5F232A518FA200515D7F /* PackmanView.swift */,
+			);
+			path = Packman;
+			sourceTree = "<group>";
+		};
+		913879FF2A52D2D200BA266F /* Rings */ = {
+			isa = PBXGroup;
+			children = (
+				91387A002A52D30200BA266F /* RingAnimationView.swift */,
+			);
+			path = Rings;
+			sourceTree = "<group>";
+		};
 		914220572A5034CF00B27C40 /* VoiceRecording */ = {
 			isa = PBXGroup;
 			children = (
@@ -65,6 +85,8 @@
 		91DC219E2A459C3A00B40316 /* animation.connect */ = {
 			isa = PBXGroup;
 			children = (
+				913879FF2A52D2D200BA266F /* Rings */,
+				911C5F222A518F8D00515D7F /* Packman */,
 				914220572A5034CF00B27C40 /* VoiceRecording */,
 				91DC21B22A45FDBF00B40316 /* App */,
 				91DC21AF2A45FCE900B40316 /* Confetti */,
@@ -174,6 +196,8 @@
 				91DC21A22A459C3A00B40316 /* ContentView.swift in Sources */,
 				91DC21A02A459C3A00B40316 /* animation_connectApp.swift in Sources */,
 				914220592A5034F100B27C40 /* VoiceRecordingView.swift in Sources */,
+				91387A012A52D30200BA266F /* RingAnimationView.swift in Sources */,
+				911C5F242A518FA200515D7F /* PackmanView.swift in Sources */,
 				91DC21B12A45FD2300B40316 /* ConfeetiAnimation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
