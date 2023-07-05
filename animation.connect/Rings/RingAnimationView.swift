@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct RingAnimationView: View {
-  @State var strokeGrows: Bool = false
+  @State var strokeGrows: Bool = false 
   @State var strokeGrows2: Bool = false
   @State var strokeGrows3: Bool = false
   @State var strokeGrows4: Bool = false
@@ -63,126 +63,6 @@ struct RingAnimationView: View {
     }
   }
 }
-
-struct RingAnimationView2: View {
-  @State var strokeGrows: Bool = false
-  @State var strokeGrows2: Bool = false
-  @State var strokeGrows3: Bool = false
-  @State var strokeGrows4: Bool = false
-  
-  var body: some View {
-    ZStack {
-      Color.black.edgesIgnoringSafeArea(.all)
-      RingView(grows: $strokeGrows,
-               ring: Ring(width: 100,
-                          height: 100,
-                          color: Color.random(),
-                          rotationAngle: 30,
-                          rotation3DAngle: 60,
-                          springResponse: 1,
-                          springDumping: 6,
-                          springBlendDuration: 2, dashSpace: 40),
-               shape: Rectangle())
-      
-      RingView(grows: $strokeGrows2,
-               ring: Ring(width: 100,
-                          height: 100,
-                          color: Color.random(),
-                          rotationAngle: 90,
-                          rotation3DAngle: 180,
-                          springResponse: 1,
-                          springDumping: 2,
-                          springBlendDuration: 4),
-               shape: Rectangle())
-      
-      RingView(grows: $strokeGrows3,
-               ring: Ring(width: 100,
-                          height: 100,
-                          color: Color.random(),
-                          rotationAngle: 60,
-                          rotation3DAngle: 270,
-                          springResponse: 1,
-                          springDumping: 2,
-                          springBlendDuration: 6),
-               shape: Rectangle())
-      
-      RingView(grows: $strokeGrows4,
-               ring: Ring(width: 200,
-                          height: 200,
-                          color: .white,
-                          rotationAngle: 90,
-                          rotation3DAngle: 0,
-                          springResponse: 5,
-                          springDumping: 1,
-                          springBlendDuration: 1,
-                          lineWidth: 5,
-                          dashWidth: 5),
-               shape: Rectangle())
-    }
-  }
-}
-
-struct RingAnimationView3: View {
-  @State var strokeGrows: Bool = false
-  @State var strokeGrows2: Bool = false
-  @State var strokeGrows3: Bool = false
-  @State var strokeGrows4: Bool = false
-  
-  var body: some View {
-    ZStack {
-      Color.black.edgesIgnoringSafeArea(.all)
-      RingView(grows: $strokeGrows,
-               ring: Ring(width: 100,
-                          height: 100,
-                          color: Color.random(),
-                          rotationAngle: 30,
-                          rotation3DAngle: 60,
-                          springResponse: 1,
-                          springDumping: 6,
-                          springBlendDuration: 2,
-                          dashSpace: 40),
-               shape: Circle())
-      
-      RingView(grows: $strokeGrows2,
-               ring: Ring(width: 100,
-                          height: 100,
-                          color: Color.random(),
-                          rotationAngle: 90,
-                          rotation3DAngle: 180,
-                          springResponse: 1,
-                          springDumping: 2,
-                          springBlendDuration: 4,
-                          dashSpace: 40),
-               shape: Circle())
-      
-      RingView(grows: $strokeGrows3,
-               ring: Ring(width: 100,
-                          height: 100,
-                          color: Color.random(),
-                          rotationAngle: 60,
-                          rotation3DAngle: 270,
-                          springResponse: 1,
-                          springDumping: 2,
-                          springBlendDuration: 6,
-                          dashSpace: 40),
-               shape: Circle())
-      
-      RingView(grows: $strokeGrows4,
-               ring: Ring(width: 200,
-                          height: 200,
-                          color: .white,
-                          rotationAngle: 90,
-                          rotation3DAngle: 0,
-                          springResponse: 5,
-                          springDumping: 1,
-                          springBlendDuration: 1,
-                          lineWidth: 5),
-               shape: Circle())
-    }
-  }
-}
-
-
 
 struct RingAnimationView_Previews: PreviewProvider {
     static var previews: some View {

@@ -9,11 +9,18 @@ import SwiftUI
 
 
 struct ContentView: View {
+  @State var start: Bool = false
   var body: some View {
-    VStack {
-      RingAnimationView()
-      RingAnimationView2()
-      RingAnimationView3()
+    ZStack {
+      Button(action: {
+        start.toggle()
+      }, label: {
+        Text("Start")
+          .fontWeight(.heavy)
+      })
+      if start {
+        SyncSpinner()
+      }
     }
   }
 }
@@ -24,5 +31,3 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
-
-

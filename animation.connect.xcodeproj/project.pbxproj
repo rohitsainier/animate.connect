@@ -10,18 +10,21 @@
 		911C5F242A518FA200515D7F /* PackmanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911C5F232A518FA200515D7F /* PackmanView.swift */; };
 		91387A012A52D30200BA266F /* RingAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91387A002A52D30200BA266F /* RingAnimationView.swift */; };
 		914220592A5034F100B27C40 /* VoiceRecordingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914220582A5034F100B27C40 /* VoiceRecordingView.swift */; };
+		916E56F62A54837D00BD3B0D /* XYZRotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916E56F52A54837D00BD3B0D /* XYZRotationView.swift */; };
 		91DC21A02A459C3A00B40316 /* animation_connectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DC219F2A459C3A00B40316 /* animation_connectApp.swift */; };
 		91DC21A22A459C3A00B40316 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DC21A12A459C3A00B40316 /* ContentView.swift */; };
 		91DC21A42A459C3B00B40316 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91DC21A32A459C3B00B40316 /* Assets.xcassets */; };
 		91DC21A72A459C3B00B40316 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91DC21A62A459C3B00B40316 /* Preview Assets.xcassets */; };
 		91DC21AE2A45B33E00B40316 /* ConfettiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DC21AD2A45B33E00B40316 /* ConfettiView.swift */; };
 		91DC21B12A45FD2300B40316 /* ConfeetiAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DC21B02A45FD2300B40316 /* ConfeetiAnimation.swift */; };
+		91F048102A55D8C4002416E6 /* SyncSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F0480F2A55D8C4002416E6 /* SyncSpinner.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		911C5F232A518FA200515D7F /* PackmanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackmanView.swift; sourceTree = "<group>"; };
 		91387A002A52D30200BA266F /* RingAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingAnimationView.swift; sourceTree = "<group>"; };
 		914220582A5034F100B27C40 /* VoiceRecordingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceRecordingView.swift; sourceTree = "<group>"; };
+		916E56F52A54837D00BD3B0D /* XYZRotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYZRotationView.swift; sourceTree = "<group>"; };
 		91DC219C2A459C3A00B40316 /* animation.connect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = animation.connect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91DC219F2A459C3A00B40316 /* animation_connectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = animation_connectApp.swift; sourceTree = "<group>"; };
 		91DC21A12A459C3A00B40316 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -29,6 +32,7 @@
 		91DC21A62A459C3B00B40316 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		91DC21AD2A45B33E00B40316 /* ConfettiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfettiView.swift; sourceTree = "<group>"; };
 		91DC21B02A45FD2300B40316 /* ConfeetiAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfeetiAnimation.swift; sourceTree = "<group>"; };
+		91F0480F2A55D8C4002416E6 /* SyncSpinner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncSpinner.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,14 @@
 			path = VoiceRecording;
 			sourceTree = "<group>";
 		};
+		916E56F42A54836600BD3B0D /* XYZRotation */ = {
+			isa = PBXGroup;
+			children = (
+				916E56F52A54837D00BD3B0D /* XYZRotationView.swift */,
+			);
+			path = XYZRotation;
+			sourceTree = "<group>";
+		};
 		91DC21932A459C3A00B40316 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +97,8 @@
 		91DC219E2A459C3A00B40316 /* animation.connect */ = {
 			isa = PBXGroup;
 			children = (
+				91F0480E2A55D8B0002416E6 /* SyncSpinner */,
+				916E56F42A54836600BD3B0D /* XYZRotation */,
 				913879FF2A52D2D200BA266F /* Rings */,
 				911C5F222A518F8D00515D7F /* Packman */,
 				914220572A5034CF00B27C40 /* VoiceRecording */,
@@ -120,6 +134,14 @@
 				91DC219F2A459C3A00B40316 /* animation_connectApp.swift */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		91F0480E2A55D8B0002416E6 /* SyncSpinner */ = {
+			isa = PBXGroup;
+			children = (
+				91F0480F2A55D8C4002416E6 /* SyncSpinner.swift */,
+			);
+			path = SyncSpinner;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,11 +215,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				91DC21AE2A45B33E00B40316 /* ConfettiView.swift in Sources */,
+				91F048102A55D8C4002416E6 /* SyncSpinner.swift in Sources */,
 				91DC21A22A459C3A00B40316 /* ContentView.swift in Sources */,
 				91DC21A02A459C3A00B40316 /* animation_connectApp.swift in Sources */,
 				914220592A5034F100B27C40 /* VoiceRecordingView.swift in Sources */,
 				91387A012A52D30200BA266F /* RingAnimationView.swift in Sources */,
 				911C5F242A518FA200515D7F /* PackmanView.swift in Sources */,
+				916E56F62A54837D00BD3B0D /* XYZRotationView.swift in Sources */,
 				91DC21B12A45FD2300B40316 /* ConfeetiAnimation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
