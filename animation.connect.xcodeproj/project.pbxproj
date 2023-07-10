@@ -10,7 +10,11 @@
 		911C5F242A518FA200515D7F /* PackmanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911C5F232A518FA200515D7F /* PackmanView.swift */; };
 		91387A012A52D30200BA266F /* RingAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91387A002A52D30200BA266F /* RingAnimationView.swift */; };
 		914220592A5034F100B27C40 /* VoiceRecordingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914220582A5034F100B27C40 /* VoiceRecordingView.swift */; };
+		914FAC602A5887C400615134 /* CircleLoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914FAC5F2A5887C400615134 /* CircleLoaderView.swift */; };
+		915436BA2A573A590010097F /* PinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915436B92A573A590010097F /* PinView.swift */; };
 		916E56F62A54837D00BD3B0D /* XYZRotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916E56F52A54837D00BD3B0D /* XYZRotationView.swift */; };
+		919A22332A5C71D200719768 /* SkypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919A22322A5C71D200719768 /* SkypeView.swift */; };
+		91A5EAFB2A5B2186001E0070 /* SilentModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A5EAFA2A5B2186001E0070 /* SilentModeView.swift */; };
 		91DC21A02A459C3A00B40316 /* animation_connectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DC219F2A459C3A00B40316 /* animation_connectApp.swift */; };
 		91DC21A22A459C3A00B40316 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DC21A12A459C3A00B40316 /* ContentView.swift */; };
 		91DC21A42A459C3B00B40316 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91DC21A32A459C3B00B40316 /* Assets.xcassets */; };
@@ -24,7 +28,11 @@
 		911C5F232A518FA200515D7F /* PackmanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackmanView.swift; sourceTree = "<group>"; };
 		91387A002A52D30200BA266F /* RingAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingAnimationView.swift; sourceTree = "<group>"; };
 		914220582A5034F100B27C40 /* VoiceRecordingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceRecordingView.swift; sourceTree = "<group>"; };
+		914FAC5F2A5887C400615134 /* CircleLoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleLoaderView.swift; sourceTree = "<group>"; };
+		915436B92A573A590010097F /* PinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinView.swift; sourceTree = "<group>"; };
 		916E56F52A54837D00BD3B0D /* XYZRotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYZRotationView.swift; sourceTree = "<group>"; };
+		919A22322A5C71D200719768 /* SkypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkypeView.swift; sourceTree = "<group>"; };
+		91A5EAFA2A5B2186001E0070 /* SilentModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SilentModeView.swift; sourceTree = "<group>"; };
 		91DC219C2A459C3A00B40316 /* animation.connect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = animation.connect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91DC219F2A459C3A00B40316 /* animation_connectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = animation_connectApp.swift; sourceTree = "<group>"; };
 		91DC21A12A459C3A00B40316 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -70,12 +78,44 @@
 			path = VoiceRecording;
 			sourceTree = "<group>";
 		};
+		914FAC5E2A5887AD00615134 /* CircleLoader */ = {
+			isa = PBXGroup;
+			children = (
+				914FAC5F2A5887C400615134 /* CircleLoaderView.swift */,
+			);
+			path = CircleLoader;
+			sourceTree = "<group>";
+		};
+		915436B82A573A490010097F /* PinView */ = {
+			isa = PBXGroup;
+			children = (
+				915436B92A573A590010097F /* PinView.swift */,
+			);
+			path = PinView;
+			sourceTree = "<group>";
+		};
 		916E56F42A54836600BD3B0D /* XYZRotation */ = {
 			isa = PBXGroup;
 			children = (
 				916E56F52A54837D00BD3B0D /* XYZRotationView.swift */,
 			);
 			path = XYZRotation;
+			sourceTree = "<group>";
+		};
+		919A22312A5C71C400719768 /* SkypeView */ = {
+			isa = PBXGroup;
+			children = (
+				919A22322A5C71D200719768 /* SkypeView.swift */,
+			);
+			path = SkypeView;
+			sourceTree = "<group>";
+		};
+		91A5EAF92A5B216C001E0070 /* SilentView */ = {
+			isa = PBXGroup;
+			children = (
+				91A5EAFA2A5B2186001E0070 /* SilentModeView.swift */,
+			);
+			path = SilentView;
 			sourceTree = "<group>";
 		};
 		91DC21932A459C3A00B40316 = {
@@ -97,6 +137,10 @@
 		91DC219E2A459C3A00B40316 /* animation.connect */ = {
 			isa = PBXGroup;
 			children = (
+				919A22312A5C71C400719768 /* SkypeView */,
+				91A5EAF92A5B216C001E0070 /* SilentView */,
+				914FAC5E2A5887AD00615134 /* CircleLoader */,
+				915436B82A573A490010097F /* PinView */,
 				91F0480E2A55D8B0002416E6 /* SyncSpinner */,
 				916E56F42A54836600BD3B0D /* XYZRotation */,
 				913879FF2A52D2D200BA266F /* Rings */,
@@ -214,10 +258,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				915436BA2A573A590010097F /* PinView.swift in Sources */,
+				914FAC602A5887C400615134 /* CircleLoaderView.swift in Sources */,
 				91DC21AE2A45B33E00B40316 /* ConfettiView.swift in Sources */,
 				91F048102A55D8C4002416E6 /* SyncSpinner.swift in Sources */,
 				91DC21A22A459C3A00B40316 /* ContentView.swift in Sources */,
 				91DC21A02A459C3A00B40316 /* animation_connectApp.swift in Sources */,
+				91A5EAFB2A5B2186001E0070 /* SilentModeView.swift in Sources */,
+				919A22332A5C71D200719768 /* SkypeView.swift in Sources */,
 				914220592A5034F100B27C40 /* VoiceRecordingView.swift in Sources */,
 				91387A012A52D30200BA266F /* RingAnimationView.swift in Sources */,
 				911C5F242A518FA200515D7F /* PackmanView.swift in Sources */,

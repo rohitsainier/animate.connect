@@ -9,19 +9,8 @@ import SwiftUI
 
 
 struct ContentView: View {
-  @State var start: Bool = false
   var body: some View {
-    ZStack {
-      Button(action: {
-        start.toggle()
-      }, label: {
-        Text("Start")
-          .fontWeight(.heavy)
-      })
-      if start {
-        SyncSpinner()
-      }
-    }
+    SkypeView()
   }
 }
 
