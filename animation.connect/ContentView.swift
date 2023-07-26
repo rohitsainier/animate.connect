@@ -10,7 +10,7 @@ import SwiftUI
 
 struct ContentView: View {
   var body: some View {
-    SkypeView()
+    CircleGun()
   }
 }
 
@@ -20,3 +20,4 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+

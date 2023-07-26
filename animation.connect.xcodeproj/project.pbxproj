@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		910FEBBD2A719D4800A58D87 /* CircleGun.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910FEBBC2A719D4800A58D87 /* CircleGun.swift */; };
 		911C5F242A518FA200515D7F /* PackmanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911C5F232A518FA200515D7F /* PackmanView.swift */; };
 		91387A012A52D30200BA266F /* RingAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91387A002A52D30200BA266F /* RingAnimationView.swift */; };
 		914220592A5034F100B27C40 /* VoiceRecordingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914220582A5034F100B27C40 /* VoiceRecordingView.swift */; };
 		914FAC602A5887C400615134 /* CircleLoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914FAC5F2A5887C400615134 /* CircleLoaderView.swift */; };
 		915436BA2A573A590010097F /* PinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915436B92A573A590010097F /* PinView.swift */; };
+		91559AB62A5DE7F800200EAA /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91559AB52A5DE7F800200EAA /* LocationView.swift */; };
 		916E56F62A54837D00BD3B0D /* XYZRotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916E56F52A54837D00BD3B0D /* XYZRotationView.swift */; };
 		919A22332A5C71D200719768 /* SkypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919A22322A5C71D200719768 /* SkypeView.swift */; };
 		91A5EAFB2A5B2186001E0070 /* SilentModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A5EAFA2A5B2186001E0070 /* SilentModeView.swift */; };
+		91C8F0122A6850FE0016F8A5 /* SunView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C8F0112A6850FE0016F8A5 /* SunView.swift */; };
+		91C8F0152A685A8C0016F8A5 /* MenuCrossView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C8F0142A685A8C0016F8A5 /* MenuCrossView.swift */; };
+		91C8F0182A686BA50016F8A5 /* VerticalWaveLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C8F0172A686BA50016F8A5 /* VerticalWaveLoader.swift */; };
 		91DC21A02A459C3A00B40316 /* animation_connectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DC219F2A459C3A00B40316 /* animation_connectApp.swift */; };
 		91DC21A22A459C3A00B40316 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DC21A12A459C3A00B40316 /* ContentView.swift */; };
 		91DC21A42A459C3B00B40316 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91DC21A32A459C3B00B40316 /* Assets.xcassets */; };
@@ -25,14 +30,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		910FEBBC2A719D4800A58D87 /* CircleGun.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleGun.swift; sourceTree = "<group>"; };
 		911C5F232A518FA200515D7F /* PackmanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackmanView.swift; sourceTree = "<group>"; };
 		91387A002A52D30200BA266F /* RingAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingAnimationView.swift; sourceTree = "<group>"; };
 		914220582A5034F100B27C40 /* VoiceRecordingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceRecordingView.swift; sourceTree = "<group>"; };
 		914FAC5F2A5887C400615134 /* CircleLoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleLoaderView.swift; sourceTree = "<group>"; };
 		915436B92A573A590010097F /* PinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinView.swift; sourceTree = "<group>"; };
+		91559AB52A5DE7F800200EAA /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
 		916E56F52A54837D00BD3B0D /* XYZRotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYZRotationView.swift; sourceTree = "<group>"; };
 		919A22322A5C71D200719768 /* SkypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkypeView.swift; sourceTree = "<group>"; };
 		91A5EAFA2A5B2186001E0070 /* SilentModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SilentModeView.swift; sourceTree = "<group>"; };
+		91C8F0112A6850FE0016F8A5 /* SunView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunView.swift; sourceTree = "<group>"; };
+		91C8F0142A685A8C0016F8A5 /* MenuCrossView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCrossView.swift; sourceTree = "<group>"; };
+		91C8F0172A686BA50016F8A5 /* VerticalWaveLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalWaveLoader.swift; sourceTree = "<group>"; };
 		91DC219C2A459C3A00B40316 /* animation.connect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = animation.connect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91DC219F2A459C3A00B40316 /* animation_connectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = animation_connectApp.swift; sourceTree = "<group>"; };
 		91DC21A12A459C3A00B40316 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,6 +64,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		910FEBBB2A719D3200A58D87 /* CircleGun */ = {
+			isa = PBXGroup;
+			children = (
+				910FEBBC2A719D4800A58D87 /* CircleGun.swift */,
+			);
+			path = CircleGun;
+			sourceTree = "<group>";
+		};
 		911C5F222A518F8D00515D7F /* Packman */ = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +112,14 @@
 			path = PinView;
 			sourceTree = "<group>";
 		};
+		91559AB42A5DE7E500200EAA /* LocationView */ = {
+			isa = PBXGroup;
+			children = (
+				91559AB52A5DE7F800200EAA /* LocationView.swift */,
+			);
+			path = LocationView;
+			sourceTree = "<group>";
+		};
 		916E56F42A54836600BD3B0D /* XYZRotation */ = {
 			isa = PBXGroup;
 			children = (
@@ -118,6 +144,30 @@
 			path = SilentView;
 			sourceTree = "<group>";
 		};
+		91C8F0102A6850DF0016F8A5 /* SunView */ = {
+			isa = PBXGroup;
+			children = (
+				91C8F0112A6850FE0016F8A5 /* SunView.swift */,
+			);
+			path = SunView;
+			sourceTree = "<group>";
+		};
+		91C8F0132A685A7C0016F8A5 /* MenuCross */ = {
+			isa = PBXGroup;
+			children = (
+				91C8F0142A685A8C0016F8A5 /* MenuCrossView.swift */,
+			);
+			path = MenuCross;
+			sourceTree = "<group>";
+		};
+		91C8F0162A686B810016F8A5 /* WaveLoader */ = {
+			isa = PBXGroup;
+			children = (
+				91C8F0172A686BA50016F8A5 /* VerticalWaveLoader.swift */,
+			);
+			path = WaveLoader;
+			sourceTree = "<group>";
+		};
 		91DC21932A459C3A00B40316 = {
 			isa = PBXGroup;
 			children = (
@@ -137,6 +187,11 @@
 		91DC219E2A459C3A00B40316 /* animation.connect */ = {
 			isa = PBXGroup;
 			children = (
+				910FEBBB2A719D3200A58D87 /* CircleGun */,
+				91C8F0162A686B810016F8A5 /* WaveLoader */,
+				91C8F0132A685A7C0016F8A5 /* MenuCross */,
+				91C8F0102A6850DF0016F8A5 /* SunView */,
+				91559AB42A5DE7E500200EAA /* LocationView */,
 				919A22312A5C71C400719768 /* SkypeView */,
 				91A5EAF92A5B216C001E0070 /* SilentView */,
 				914FAC5E2A5887AD00615134 /* CircleLoader */,
@@ -264,12 +319,17 @@
 				91F048102A55D8C4002416E6 /* SyncSpinner.swift in Sources */,
 				91DC21A22A459C3A00B40316 /* ContentView.swift in Sources */,
 				91DC21A02A459C3A00B40316 /* animation_connectApp.swift in Sources */,
+				910FEBBD2A719D4800A58D87 /* CircleGun.swift in Sources */,
 				91A5EAFB2A5B2186001E0070 /* SilentModeView.swift in Sources */,
 				919A22332A5C71D200719768 /* SkypeView.swift in Sources */,
+				91C8F0152A685A8C0016F8A5 /* MenuCrossView.swift in Sources */,
 				914220592A5034F100B27C40 /* VoiceRecordingView.swift in Sources */,
 				91387A012A52D30200BA266F /* RingAnimationView.swift in Sources */,
 				911C5F242A518FA200515D7F /* PackmanView.swift in Sources */,
+				91559AB62A5DE7F800200EAA /* LocationView.swift in Sources */,
 				916E56F62A54837D00BD3B0D /* XYZRotationView.swift in Sources */,
+				91C8F0182A686BA50016F8A5 /* VerticalWaveLoader.swift in Sources */,
+				91C8F0122A6850FE0016F8A5 /* SunView.swift in Sources */,
 				91DC21B12A45FD2300B40316 /* ConfeetiAnimation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +471,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -439,6 +500,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
